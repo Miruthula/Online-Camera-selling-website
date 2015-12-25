@@ -1,0 +1,275 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Aug, 2014, 11:37:25 AM
+    Author     : Admin
+*/
+
+body.background 
+{ 
+    background:#000000 no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 600px;
+    background-attachment: scroll;
+}
+#header 
+{
+  background: #000000 url(Image1.jpg) no-repeat;
+  height: 90px;
+ }
+ #logo 
+{
+   
+  text-align: center;
+  color: #FFFFFF;
+ }
+
+#logo p
+{
+   font: bold 24px "arial nararow", arial, sans-serif;
+}
+#logo p.p1
+{
+   font: bold 15px "arial nararow", arial, sans-serif;
+      
+}
+ #header1 
+{
+  background:#0E0E0E;
+  height: 25px;
+  text-align: center;
+  font-size: 18px;
+ }
+ #header2
+ {
+     background-color:#0E0E0E;
+     height: 490px;
+ }
+ 
+   
+  a
+ {
+   color:white;
+   font:16px "arial nararow", arial, sans-serif;
+          
+ }
+
+ 
+  #footer
+ {
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 100px;
+    
+  }
+ 
+ #Contentbody
+ {
+     background-color:#0E0E0E;
+     height: 490px;
+     
+  }
+ 
+  #sidebarleft
+ {
+     background: #0E0E0E;
+     float: left;
+     height:490px;
+     width: 250px;
+ }
+  #sidebarcenter
+ {
+     background: #0E0E0E;
+     float: left;
+     height:490px;
+     width: 833px;
+     display: inline;
+     color: white;
+     font:16px "arial nararow", arial, sans-serif;
+     overflow-y: scroll;
+     overflow: auto;
+ }
+ #sidebarcenter button
+ {
+     display: inline;
+ }
+ #sidebarcenter h2
+ {
+     color: grey;
+ }
+ #sidebarcenter p
+ {
+     color:white;
+     font: 15px "arial nararow", arial, sans-serif;
+     padding-left: 20px;
+     text-align: justify;
+ }
+  #sidebarcenter p.pp
+ {
+     color:white;
+     font: bold 15px "arial nararow", arial, sans-serif;
+     padding-left: 20px;
+     
+ }
+ #sidebarcenter h3
+ {
+     padding-left: 50px;
+     text-align: center;
+     color:white;
+     font: 25px "arial nararow", arial, sans-serif;
+     
+ }
+  #sidebarcenter h4
+ {
+     padding-left: 45px;
+     text-align: center;
+     color:white;
+     font: bold 17px "arial nararow", arial, sans-serif;
+     
+ }
+ 
+ #sidebarcenter img
+ {
+    
+     height: 150px;
+     width: 250px;
+ }
+ #sidebarcenter form
+ {
+     display: inline;
+   
+ }
+ #sidebarcenter img.image1
+ {
+     height: 100px;
+     width: 100px;
+ }
+ 
+ 
+ #sidebarcenter p.p2
+  {
+     color:white;
+     font: 15px "arial nararow", arial, sans-serif;
+     text-align: left;
+     padding-left: 15px;
+ }
+ 
+ #sidebarcenter p.p3
+  {
+     color:white;
+     font: bold 15px "arial nararow", arial, sans-serif;
+     text-align: left;
+     padding-left: 330px;
+ }
+ 
+  #sidebarcenter input.one
+  {
+     
+    position: relative;
+    left:325px;
+ }
+ #center
+ {
+    background: white;
+    width:500px;
+ }
+ #catalog
+ {
+    text-align: left;
+    color: #FFFFFF;
+    font: 18px "arial nararow", arial, sans-serif;
+	
+ }
+#logo1
+{
+  position: absolute;
+  left: 580px;
+  width: 200px;
+  color: #FFFFFF;
+  font: bold 10px "arial nararow", arial, sans-serif;
+}
+
+#placeholder
+{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color:white;
+  font:bold 10px "arial nararow", arial, sans-serif;
+ }
+ #place
+ {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  color:white;
+  font:bold 10px "arial nararow", arial, sans-serif;
+     
+ }
+  #place1
+ {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  color:white;
+  font:bold 10px "arial nararow", arial, sans-serif;
+     
+ }
+ #placeholder a
+{
+
+  float:left;
+  color:white;
+  font:bold 10px "arial nararow", arial, sans-serif;
+ }
+ 
+ 
+
+ #sidebarright
+ {
+     background: #0E0E0E url(Image2.jpg) no-repeat;
+     float: right;
+     height:490px;
+     width: 250px;
+ }
+ 
+ #Contact p
+ {
+  padding-left: 25px;
+  text-align:center;
+  color: #FFFFFF;
+  font:14px "arial nararow", arial, sans-serif;
+  width: 200px;
+ }
+
+ 
+table
+{
+   
+    padding: 18px;
+}
+
+td
+{
+    border: 1px solid black;
+    font:14px "arial nararow", arial, sans-serif;
+    color:white;
+    background-color: #404040;
+    padding: 8px;
+}
+th
+{
+    font:16px "arial nararow", arial, sans-serif;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
