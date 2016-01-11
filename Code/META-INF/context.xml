@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/ezbuy_41">
+  
+<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/ezbuy" password="sesame" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/ezbuy" username="root"/>
+	
+<Realm className="org.apache.catalina.realm.JDBCRealm"
+      driverName="com.mysql.jdbc.Driver" debug="99"
+   connectionURL="jdbc:mysql://localhost:3306/ezbuy"
+   connectionName="root" connectionPassword="sesame"
+       userTable="userpass" userNameCol="username" userCredCol="password"
+     
+       dataSourceName="jdbc/ezbuy"
+   userRoleTable="userrole" roleNameCol="rollname"/>
+</Context>
